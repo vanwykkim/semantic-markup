@@ -1,13 +1,17 @@
+
+/* sets padding, margin, box-sizing type for whole page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* sets background color for the body of the page */
 body {
     background-color: #d9dcd6;
 }
 
+/* sets default settings for header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,18 @@ body {
     color: #ffffff;
 }
 
+/* makes all h1's display inline and sets font size for them */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes the color for SEO part of Horiseon for brand styling */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* styles the navigational part of the header - sets defaults */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,15 +39,18 @@ body {
     font-size: 20px;
 }
 
+/* sets the list style type for the navigation */
 .header nav ul {
     list-style-type: none;
 }
 
+/* sets the navigation list to inline and the left margin */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* sets the color for the hrefs and that there is no text-decoration like underling */
 a {
     color: #ffffff;
     text-decoration: none;
