@@ -6,12 +6,12 @@
     margin: 0;
 }
 
-/* sets background color for the body of the page */
+/* body tag - sets background color for the body of the page */
 body {
     background-color: #d9dcd6;
 }
 
-/* sets default settings for header */
+/* header class - sets default settings for header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,18 +19,18 @@ body {
     color: #ffffff;
 }
 
-/* makes all h1's display inline and sets font size for them */
+/* header class with h1 tag - makes all h1's display inline and sets font size for them */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* Changes the color for SEO part of Horiseon for brand styling */
+/* header class with h1 tag and seo class - Changes the color for SEO part of Horiseon for brand styling */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/* styles the navigational part of the header - sets defaults */
+/* header class w/ nav tag- styles the navigational part of the header - sets defaults */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,7 +39,7 @@ body {
     font-size: 20px;
 }
 
-/* sets the list style type for the navigation */
+/* header class with nav and unordered list tags - sets the list style type for the navigation */
 .header nav ul {
     list-style-type: none;
 }
@@ -50,16 +50,18 @@ body {
     margin-left: 25px;
 }
 
-/* sets the color for the hrefs and that there is no text-decoration like underling */
+/* sets the color for the hrefs and that there is no text-decoration like underlining */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* paragraph tag - sets the font size for the paragraphs */
 p {
     font-size: 16px;
 }
 
+/* hero class - sets the size and margins and background for the main photo */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,22 +71,26 @@ p {
     background-position: center;
 }
 
+/* class to add to images you want displayed on left side of page */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* class to add to images you want displayed on right side of page */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* content class - sets the width, inline display and left margin for the content in the main area of the body */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* benefits class - sets the formating for the benefits section on the right side of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -96,54 +102,63 @@ p {
     background-color: #2589bd;
 }
 
+/* benefit-lead class - sets the margins and color for the benefit-lead section */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* benefit-brand class - sets the margins and color for the benefit-brand section */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* benefit-cost class - sets the margins and color for the benefit-cost section */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* benefit-lead class w/ h3 tag - sets the margins and centers text for the benefit-lead header */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* benefit-brand class w/ h3 tag - sets the margins and centers text for the benefit-brand header */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* benefit-cost class w/ h3 tag - sets the margins and centers text for the benefit-cost header */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* benefit-lead class w/ img tag - sets the display, max width for the benefit-lead image */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* benefit-brand class w/ img tag - sets the display, max width for the benefit-brand image */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* benefit-cost class w/ img tag - sets the display, max width for the benefit-cost image */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* class search-engine-optimization - sets the defaults for that section */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -153,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/* class online-reputaion-management - sets the defaults for that section */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/* class social-media-marketing - sets the defaults for that section */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -171,40 +188,47 @@ p {
     color: #ffffff;
 }
 
+/* class search-engine-optimization w/ img tag - sets the max-height for that image */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* class online-reputaion-management w/ img tag - sets the max-height for that image */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* class social-media-marketing w/ img tag - sets the max-height for that image */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* class search-engine-optimization w/ h2 tag - sets the bottom margin and font size for that header */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* class online-reputaion-management w/ h2 tag - sets the bottom margin and font size for that header */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* class social-media-marketing w/ h2 tag - sets the bottom margin and font size for that header */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* class footer - resets some of the defaults for the footer section */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* class footer with h4 tag - sets the font size for the footer heading */
 .footer h4 {
     font-size: 20px;
 }
