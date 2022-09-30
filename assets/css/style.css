@@ -102,57 +102,25 @@ p {
     background-color: #2589bd;
 }
 
-/* benefit-lead class - sets the margins and color for the benefit-lead section */
-.benefit-lead {
+/* having benefit-lead, benefit-brand, benefit-cost classes can all be combined into same code as benefit class as they are identical */
+/* don't repeat code if not necessary, might be necessary to change in future but for current display works fine combined */
+
+/* benefit-item class - sets the margins and color for benefit sections */
+.benefit-item { 
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* benefit-brand class - sets the margins and color for the benefit-brand section */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-/* benefit-cost class - sets the margins and color for the benefit-cost section */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* benefit-lead class w/ h3 tag - sets the margins and centers text for the benefit-lead header */
-.benefit-lead h3 {
+/* benefit-item class w/ h3 tag - sets the margins and centers text for a benefit header */
+.benefit-item h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* benefit-brand class w/ h3 tag - sets the margins and centers text for the benefit-brand header */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-/* benefit-cost class w/ h3 tag - sets the margins and centers text for the benefit-cost header */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* benefit-lead class w/ img tag - sets the display, max width for the benefit-lead image */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* benefit-brand class w/ img tag - sets the display, max width for the benefit-brand image */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* benefit-cost class w/ img tag - sets the display, max width for the benefit-cost image */
-.benefit-cost img {
+/* benefit-item class w/ img tag - sets the display, max width for a benefit image */
+.benefit-item img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
